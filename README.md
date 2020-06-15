@@ -13,6 +13,5 @@ Neste repositório, estão meus aprendizados nas linguagens de programação jun
 * Frameworks
 * Muito mais
 
-Siga meu GitHub: [Meu GitHub](https://github.com/SobrinhoSergio) 
 
 :facepunch: :muscle: :mortar_board: :computer:
