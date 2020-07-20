@@ -1,3 +1,3 @@
-# Matérias da faculdade de Computação
+# Minha Faculdade
 
-Neste repositório, estão meus aprendizados nas linguagens de programação juntos aos paradigmas, Framework, algumas listas de exercícios e algumas atividades feitas. Da faculdade de Sistemas de Informação do **CEFET-RJ** unidade Nova-Friburgo. :computer:
+Neste repositório, estão exercícios, matérias, apostilas, listas de exercícios da faculdade de Sistemas de Informação do CEFET-RJ unidade Nova Friburgo e cursos feitos nas plataformas de educação tecnológica. :computer:
