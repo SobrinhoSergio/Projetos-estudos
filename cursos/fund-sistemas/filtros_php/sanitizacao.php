@@ -36,8 +36,7 @@ if(isset($_POST['enviar-formulario'])):
     
     //Sanitizações
 
-    $nome = filter_input(INPUT_POST, "nome", FILTER_SANITIZE_SPECIAL_CHARS); //Serve para escapar todos os códigos HTML
-    
+    $nome = filter_input(INPUT_POST, "nome", FILTER_SANITIZE_SPECIAL_CHARS); //Serve para escapar todos os códigos HTML  
  
     $idade = filter_input(INPUT_POST, "idade", FILTER_SANITIZE_NUMBER_INT); //Só exibe o número
     if(!filter_var($idade, FILTER_VALIDATE_INT)):

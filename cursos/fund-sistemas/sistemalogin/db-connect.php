@@ -1,6 +1,6 @@
 <?php
 
-//Conexão com o banco de dados url: http://localhost/curso-php/sistemaDeLogin(Procedural)/bd-connect.php
+//Conexão com o banco de dados url: http://localhost/passos-sistemas/sistemalogin/db-connect.php
  
 $servername = "localhost";
 $username = "root";

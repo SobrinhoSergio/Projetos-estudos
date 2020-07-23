@@ -29,7 +29,7 @@ Funções (filter_input - Filter_var)
 
 <?php
 
-if(isset($_POST['enviar-formulario'])):
+if(isset($_POST['enviar-formulario'])): //Isset serve para verificar se existe uma variável
     //array de erros
     $erros = array();
     
@@ -55,7 +55,7 @@ if(isset($_POST['enviar-formulario'])):
      endif;
 
      //exibindo mensagens
-    if(!empty($erros)):
+    if(!empty($erros)):  //Serve para ver se a variável está vazia
         foreach($erros as $erros):
             echo "<li> $erros </li>";
         endforeach;
