@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Dê que país você é?</h1>
+
+    Digite seu país de origem: <input type="text" name="textpais" id="textpais">
+    <input type="button" value="verificar" onclick="calcular()">
+
+    <div id="res"> 
+        
+        <p>Concluímos que : </p> 
+    
+    </div>
+
+    <script> 
+    
+    function calcular(){
+
+        var txtp = window.document.getElementById("textpais")
+        var pais = (txtp.value)
+        var conclusao = window.document.querySelector('div#res')
+        conclusao.innerHTML += `<p> Seu país de origem é <strong> ${pais}! </strong> </p>`
+
+
+            if(pais=="Brasil" || pais=="brasil"){
+
+                conclusao.innerHTML += `Logo, o senhor é BRASILEIRO.`
+
+            }
+            else{
+
+                conclusao.innerHTML += `Então, o senhor é ESTRANGEIRO.`
+            }
+    }
+    
+    </script>
+
+</body>
+</html>
