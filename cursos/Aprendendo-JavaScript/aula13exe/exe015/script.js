@@ -69,6 +69,6 @@ function verificar() {
         }
          //res.style.textAlign = 'center'
          res.innerHTML = `Detectamos ${gênero} com idade de ${idade} anos de idade.`
-         res.appendChild(img)   
+         res.appendChild(img)   //Ele serve para inserir um elemento filho a um elemento pai
     }
 }

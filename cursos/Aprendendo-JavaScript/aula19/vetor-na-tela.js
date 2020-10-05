@@ -1,4 +1,6 @@
-let valores = [8, 1, 7, 4, 2, 9]
+let valores = Array(30)
+valores[0] = 9
+valores[1] = 7
 valores.sort()
 
 // console.log(valores)
@@ -24,3 +26,10 @@ for(let pos in valores) {
 
 console.log(`O valor 7 se encontra na posição ${valores.indexOf(7)}`)
 console.log(`O valor 10 se encontra na posição ${valores.indexOf(10)}`)
+
+let addItem = Array(50)
+
+    for(let i=0; i>=addItem.length; i++){
+        let tot = addItem.push(i)
+        console = `${tot}` 
+    }
