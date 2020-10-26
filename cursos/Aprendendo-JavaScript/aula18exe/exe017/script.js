@@ -1,4 +1,4 @@
-function tabuada() {
+ function tabuada() {
     
     let numero = document.getElementById('txtnum')
     let tab = document.getElementById('seltab')
