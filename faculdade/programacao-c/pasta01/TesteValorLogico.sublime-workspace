@@ -1,0 +1,493 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"stdio.h\tstandard header"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"text-de",
+				"text-decoration\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"ac",
+				"article\tTag"
+			],
+			[
+				"m",
+				"middle\tvertical-align"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"r",
+				"right\tfloat"
+			],
+			[
+				"fot",
+				"font-family\tproperty"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"bo",
+				"box-shadow\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"tr",
+				"transition\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"css",
+				"_css"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"rea",
+				"repeat-x\tbackground-repeat"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"text",
+				"text-indent\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"nu",
+				"numero"
+			],
+			[
+				"num",
+				"num1"
+			],
+			[
+				"N",
+				"NumEquivMes"
+			],
+			[
+				"Re",
+				"RetornaMaiorDeTres"
+			],
+			[
+				"Retorna",
+				"RetornaMaiorDeDois"
+			],
+			[
+				"Eh",
+				"EhDivisivel"
+			],
+			[
+				"s",
+				"stdio.h\tstandard header"
+			],
+			[
+				"C",
+				"ConverteEmRad"
+			],
+			[
+				"LA",
+				"LadoB"
+			],
+			[
+				"Lo",
+				"LadoA"
+			],
+			[
+				"eh",
+				"ehChefe"
+			],
+			[
+				"So",
+				"SobrenomeNome"
+			],
+			[
+				"Soma",
+				"SomaMedia"
+			],
+			[
+				"str",
+				"string.h\tstandard header"
+			],
+			[
+				"V",
+				"Vconsumo"
+			],
+			[
+				"RA",
+				"RaizQuadrada"
+			],
+			[
+				"ma",
+				"math.h\tstandard header"
+			],
+			[
+				"std",
+				"stdio.h\tstandard header"
+			],
+			[
+				"is",
+				"informações"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "#include <stdio.h>\n#include <math.h>\n\nint CalculaPotencia(int num1, int num2){\n\nfor(   ;   ;   ){\n\n\n}\n\nreturn ;\n}\nint main(){\n\t\nint numero1, numero2;\n\nprintf(\"Forneca um valor para o numero1: \");\nscanf(\"%d\", &numero1);\nprintf(\"Forneca um valora para o numero2: \");\nscanf(\"%d\", )\n\nprintf(\"%d\", CalculaPotencia(numero1, numero2));\n\n\n\n}",
+			"file": "Est. Repeticao (2).c",
+			"file_size": 365,
+			"file_write_time": 132339519380921584,
+			"settings":
+			{
+				"buffer_size": 333,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSeti_UI\n-------\n\n  # Install\n  ---------------\n  Activate the 'Theme' by modifying your user preferences file, which you can find using the menu item\n  `Preferences -> Settings - User` in Sublime Text\n  or use\n  `Schemr` & `Themr` by [Ben Weier](https://github.com/benweier).\n\n\n  ## Example\n  ---------------\n  ```\n  {\n    \"theme\": \"Seti.sublime-theme\",\n\n    \"caret_extra_width\": 2,                 //  to have a wider/thicker caret\n    \"caret_extra_bottom\": 3,                //  to make the caret = to the line height (the theme currently support 0,3,5)\n    \"caret_extra_top\": 3,\n\n    \"overlay_scroll_bars\": \"enabled\",       //  to show scrollbars only when scrolling\n    \"highlight_line\": true,                 //  to highlight the current line\n  }\n  ```\n\n  ### notes\n  ---------------\n  - please check the readme for more theme options.\n\n  - copy the (Resource/fold.png) \"or edit it if you want\" to (Packages/Theme - Default) to override the _focken default yellow code_folding icon.\n\n  - for better recognition of file types, its recommended to install [Apply​Syntax](https://sublime.wbond.net/packages/ApplySyntax) by facelessuser.\n\n\n  ## Fonts\n  ----------------------\n  https://www.fontsquirrel.com/fonts/fira-mono\n  https://www.fontsquirrel.com/fonts/source-code-pro\n  https://www.fontsquirrel.com/fonts/ubuntu-mono\n  http://sourcefoundry.org/hack/",
+			"settings":
+			{
+				"buffer_size": 1408,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"ma",
+				"Material Theme: Activate theme"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Local Dependency"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 95.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Sérgio/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/Sérgio/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Sérgio/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Sérgio/Documents/Meus-projetos/Programacao-em-C/exercícios/Meus exercícios 01/Estruturas de Decisao (8).c",
+		"/C/Users/Sérgio/Documents/Meus-projetos/materias-faculdade-computacao/materias-faculdade/Programacao-em-C/Lista-exercicios-C/Lista de exercícios 03.rtf",
+		"/C/Users/Sérgio/Documents/Meus-projetos/materias-faculdade-computacao/materias-faculdade/Programacao-em-C/exercícios/Meus exercícios 01/Est. Repeticao (3).c"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Est. Repeticao (2).c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 8
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1408,
+								1408
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 496.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/novoCC.sublime-build",
+	"project": "TesteValorLogico.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "Projeto C",
+		"selected_items":
+		[
+			[
+				"Projeto C",
+				"C:\\Users\\Sérgio\\Documents\\Projetos HTML.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
