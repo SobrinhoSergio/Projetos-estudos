@@ -16,32 +16,38 @@ function verificar() {
        var fsexo = document.getElementsByName('radsex')
        var idade = ano - Number(fano.value)
        var gênero = ''
-       var img = window.document.getElementById('foto')
+
+       var img = document.createElement('img')
        
-       /*Para colocar <img> fora do HTML
-       document.createElement('img')
-       img.setAttribute('id', 'foto')*/
-        
-        
+       img.setAttribute('alt', 'imagem')
+       img.setAttribute('id', 'foto') 
+     
+       img.style.borderRadius = '50%'
+       img.style.width = '250px'
+       img.style.height = '250px'
+
        if(fsexo[0].checked){
            
             gênero = 'Homem'
            
             if(idade >= 0 && idade <10){
-                img.src = 'foto-nenem-menino.jpg'
-                //img.setAttribute('src', 'foto-nenem-menino.jpg')
+                img.setAttribute('src', 'foto-nenem-menino.jpg') //ele vai criar o src da img
+                //img.src= 'foto-nenem-menino.jpg'
 
             }
             else if(idade < 21){
-                img.src = 'foto-adolescente-homem.jpg'
+                img.setAttribute('src', 'foto-adolescente-homem.jpg')
+                //img.src = 'foto-adolescente-homem.jpg'
 
             }
             else if(idade < 50){
-                img.src = 'foto-homem.jpg'
+                img.setAttribute('src', 'foto-homem.jpg')
+               // img.src = 'foto-homem.jpg'
 
             }
             else{
-                img.src = 'foto-senhor.jpg'
+                img.setAttribute('src', 'foto-senhor.jpg')
+                //img.src = 'foto-senhor.jpg'
 
             }
         
@@ -51,19 +57,23 @@ function verificar() {
             gênero = 'Mulher'
             
             if(idade >= 0 && idade <10){
-                img.src = 'foto-nenem-menina.jpg'
+                img.setAttribute('src', 'foto-nenem-menina.jpg')
+                //img.src = 'foto-nenem-menina.jpg'
 
             }
             else if(idade < 21){
-                img.src = 'foto-adolescente-mulher.jpg'
+                img.setAttribute('src', 'foto-adolescente-mulher.jpg')
+                //img.src = 'foto-adolescente-mulher.jpg'
 
             }
             else if(idade < 50){
-                img.src = 'foto-mulher.jpg'
+                img.setAttribute('src', 'foto-mulher.jpg')
+                //img.src = 'foto-mulher.jpg'
 
             }
             else{
-                img.src = 'foto-senhora.jpg'
+                img.setAttribute('src', 'foto-senhora.jpg')
+                //img.src = 'foto-senhora.jpg'
         
              }
         }
